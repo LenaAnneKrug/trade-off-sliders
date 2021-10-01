@@ -38,12 +38,12 @@ class InputArea extends Component {
   componentDidMount = () => {
     document.getElementById('metrics').focus()
 
-    this.props.addSlider("Deliver all Scope")
-    this.props.addSlider("Cost")
-    this.props.addSlider("Best UX")
-    this.props.addSlider("Quality")
-    this.props.addSlider("Time to Market")
-    this.props.addSlider("Data/Learn")
+    // this.props.addSlider("Deliver all Scope")
+    // this.props.addSlider("Cost")
+    // this.props.addSlider("Best UX")
+    // this.props.addSlider("Quality")
+    // this.props.addSlider("Time to Market")
+    // this.props.addSlider("Data/Learn")
   }
 
   render() {
